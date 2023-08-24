@@ -31,7 +31,7 @@ This project is built using Ruby, a dynamic, open-source programming language kn
 Visit the official [Ruby Website](https://www.ruby-lang.org/) website to learn more about the language and its capabilities.
 
 ## 💻 Getting Started <a name="getting-started"></a>
-To begin using the Morse Code Decoder, follow these steps:
+To begin using MyEnumerable, follow these steps:
 
 1. Clone this repository to your local machine:
 
@@ -41,10 +41,10 @@ To begin using the Morse Code Decoder, follow these steps:
    ```sh
    cd my_enumerable
     ```
-2. Run the script to decode a New code message:
+2. Run the script to verify the solution :
 
    ```sh
-   ruby my_enumerable.rb
+   ruby main.rb
    ```
 
 <a name="readme-top"></a>
@@ -56,14 +56,13 @@ This project is implemented using the Ruby programming language, known for its e
 
 ## Usage of Ruby
 
-Ruby is used extensively throughout the project for various tasks, including:
+Ruby plays a pivotal role in the MyEnumerable project, fulfilling various functionalities such as:
 
-- Implementing the decoding algorithms.
-- Creating reusable methods for character, word, and message decoding.
-- Manipulating strings and performing pattern matching.
-- Executing the script to NewProyects.
+- Implementing the `MyList` class to manage collections and provide a structured data handling mechanism.
+- Defining the `MyEnumerable` module to extend the capabilities of the `MyList` class with powerful methods.
+- Employing Ruby's inherent features to execute the test cases and verify the correctness of the implemented methods.
 
-The project leverages Ruby's strengths to provide an efficient and user-friendly Morse code decoding solution.
+Throughout the MyEnumerable project, Ruby's versatility empowers us to create an organized and efficient solution for handling collections and performing operations akin to those offered by the built-in `Enumerable` module.
 
 
 

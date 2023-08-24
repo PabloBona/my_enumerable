@@ -41,11 +41,7 @@ To begin using MyEnumerable, follow these steps:
    ```sh
    cd my_enumerable
     ```
-2. Run the script to verify the solution :
 
-   ```sh
-   ruby main.rb
-   ```
 
 <a name="readme-top"></a>
 
@@ -89,15 +85,27 @@ Throughout the MyEnumerable project, Ruby's versatility empowers us to create an
    ```sh
    cd my_enumerable
     ```
-2. Run the script to verify the solution :
-
+2. To verify the solution :
+Start IRB:
    ```sh
-   ruby main.rb
+   irb
    ```
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+3. Require_relative:
+   ```sh
+   require_relative 'my_list'
+   ```
+4. Instance MyList and test the methods:
+   ```sh
+   list = MyList.new(1, 2, 3, 4)
+   puts(list.all? { |e| e < 5 })
+   puts(list.all? { |e| e > 5 })
+   puts(list.any? { |e| e == 2 })
+   puts(list.any? { |e| e == 5 })
+   puts(list.filter(&:even?))`
+  <br>
+  <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-## 👥 Authors <a name="authors"></a>
+  ## 👥 Authors <a name="authors"></a>
 
 
 👤 **Pablo Bonasera**

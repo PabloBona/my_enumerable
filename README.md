@@ -90,10 +90,10 @@ The project leverages Ruby's strengths to provide an efficient and user-friendly
    ```sh
    cd my_enumerable
     ```
-2. Run the script to decode a Morse code message:
+2. Run the script to verify the solution :
 
    ```sh
-   ruby my_enumerable.rb
+   ruby main.rb
    ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
